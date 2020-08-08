@@ -1,5 +1,7 @@
 #This is code for bubble sort.
-from utils import utils
+import utils
+import random
+
 def bubble(arr):
     for j in range(len(arr)):
         for i in range(len(arr)-1):
@@ -8,6 +10,3 @@ def bubble(arr):
                 else: pass
     return arr
         
-#Driver code
-x = [5,2,6,7,3,8,1,9,4,0]
-print(bubble(x))
